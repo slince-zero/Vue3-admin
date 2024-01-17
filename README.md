@@ -1,29 +1,28 @@
 # vue3-admin
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue3 Admin 是一个使用 Vue3，Pinia，Vue Router及 Element UI等技术构建的后台管理系统。
+另外项目使用JS，学习成本很低，尽量标明了注释，非常适合小白练手学习。
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 展示
 
-## Customize configuration
+![image.png](./public/home.png)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![image.png](./public/table.png)
 
-## Project Setup
+![image.png](./public/editor.png)
 
-```sh
-npm install
-```
 
-### Compile and Hot-Reload for Development
+## 安装运行
 
-```sh
-npm run dev
-```
+    git clone https://github.com/slince-zero/Vue3-admin.git
 
-### Compile and Minify for Production
+    cd Vue3-admin
 
-```sh
-npm run build
-```
+    npm install
+
+    npm run dev
+
+#### 注意
+
+项目启动后默认跳转到登录界面，根据提示，输入任意值即可进入主页
